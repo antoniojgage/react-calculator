@@ -26,6 +26,6 @@ describe("App", () => {
     );
     console.log("Check the render");
     console.log(wrapper.first());
-    expect(wrapper.containsMatchingElement(<Calculator />)).toEqual(false);
+    expect(wrapper.containsMatchingElement(<Calculator />)).toEqual(true);
   });
 });
